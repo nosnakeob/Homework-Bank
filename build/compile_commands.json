@@ -1,0 +1,12 @@
+[
+{
+  "directory": "F:/Program/c_c++/Study/Design/bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\bank.cpp.obj -c F:\\Program\\c_c++\\Study\\Design\\bank\\Src\\bank.cpp",
+  "file": "F:/Program/c_c++/Study/Design/bank/Src/bank.cpp"
+},
+{
+  "directory": "F:/Program/c_c++/Study/Design/bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\Program\\c_c++\\Study\\Design\\bank\\Src\\main.cpp",
+  "file": "F:/Program/c_c++/Study/Design/bank/Src/main.cpp"
+}
+]
