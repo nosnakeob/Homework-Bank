@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/Program/c_c++/Study/Design/bank/Src/bank.cpp" "F:/Program/c_c++/Study/Design/bank/build/CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
-  "F:/Program/c_c++/Study/Design/bank/Src/main.cpp" "F:/Program/c_c++/Study/Design/bank/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
+  "E:/Work/Program/code/c_c++/lesson/Homework-Bank/Src/bank.cpp" "E:/Work/Program/code/c_c++/lesson/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
+  "E:/Work/Program/code/c_c++/lesson/Homework-Bank/Src/main.cpp" "E:/Work/Program/code/c_c++/lesson/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

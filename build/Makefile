@@ -47,10 +47,10 @@ RM = C:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\Program\c_c++\Study\Design\bank
+CMAKE_SOURCE_DIR = E:\Work\Program\code\c_c++\lesson\Homework-Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\Program\c_c++\Study\Design\bank\build
+CMAKE_BINARY_DIR = E:\Work\Program\code\c_c++\lesson\Homework-Bank\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Program\c_c++\Study\Design\bank\build\CMakeFiles F:\Program\c_c++\Study\Design\bank\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\Program\c_c++\Study\Design\bank\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

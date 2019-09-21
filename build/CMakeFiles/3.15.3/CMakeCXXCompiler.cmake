@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/Program Files/LLVM/bin/x86_64-w64-mingw32-g++.exe")
+set(CMAKE_CXX_COMPILER "C:/LLVM/bin/x86_64-w64-mingw32-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "8.1.0")
@@ -19,11 +19,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Program Files/LLVM/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/Program Files/LLVM/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Program Files/LLVM/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/Program Files/LLVM/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/Program Files/LLVM/bin/ld.exe")
+set(CMAKE_AR "C:/LLVM/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/LLVM/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "C:/LLVM/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/LLVM/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/LLVM/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -73,7 +73,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include;C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;C:/Program Files/LLVM/x86_64-w64-mingw32/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++;C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32;C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward;C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include;C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;C:/LLVM/x86_64-w64-mingw32/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/Program Files/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0;C:/Program Files/LLVM/lib/gcc;C:/Program Files/LLVM/x86_64-w64-mingw32/lib;C:/Program Files/LLVM/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/LLVM/lib/gcc/x86_64-w64-mingw32/8.1.0;C:/LLVM/lib/gcc;C:/LLVM/x86_64-w64-mingw32/lib;C:/LLVM/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
