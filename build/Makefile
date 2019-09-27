@@ -47,10 +47,10 @@ RM = C:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Work\Program\code\c_c++\lesson\Homework-Bank
+CMAKE_SOURCE_DIR = W:\code\VSCode\Project\Homework-Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Work\Program\code\c_c++\lesson\Homework-Bank\build
+CMAKE_BINARY_DIR = W:\code\VSCode\Project\Homework-Bank\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Work\Program\code\c_c++\lesson\Homework-Bank\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ Src/bank.cpp.s:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/bank.cpp.s
 .PHONY : Src/bank.cpp.s
 
+Src/counter.obj: Src/counter.cpp.obj
+
+.PHONY : Src/counter.obj
+
+# target to build an object file
+Src/counter.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/counter.cpp.obj
+.PHONY : Src/counter.cpp.obj
+
+Src/counter.i: Src/counter.cpp.i
+
+.PHONY : Src/counter.i
+
+# target to preprocess a source file
+Src/counter.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/counter.cpp.i
+.PHONY : Src/counter.cpp.i
+
+Src/counter.s: Src/counter.cpp.s
+
+.PHONY : Src/counter.s
+
+# target to generate assembly for a file
+Src/counter.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/counter.cpp.s
+.PHONY : Src/counter.cpp.s
+
 Src/main.obj: Src/main.cpp.obj
 
 .PHONY : Src/main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... Src/bank.obj
 	@echo ... Src/bank.i
 	@echo ... Src/bank.s
+	@echo ... Src/counter.obj
+	@echo ... Src/counter.i
+	@echo ... Src/counter.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
