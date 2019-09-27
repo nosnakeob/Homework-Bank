@@ -11,7 +11,7 @@ Bank::Bank()
     for (int i = 0; i < 4; i++)
     {
         counter[i].queue_num = 0;
-        counter[i].next = counter[i].rear = nullptr;
+        counter[i].queue_front = counter[i].queue_rear = nullptr;
     }
 }
 
@@ -30,7 +30,9 @@ int Bank::random(int from, int to)
 void Bank::eventDrived()
 {
     // const int MAXTIME = 10 * 60 + 5;
-    total_num = random(1, 100);         //随机生成1~100个客户
+    total_num = random(1, 100); //随机生成1~100个客户
+    cout << total_num << endl;
+
     int enter_times[605] = {0};         //用于桶排
     for (int i = 0; i < total_num; i++) //为每个客户生成进入时间0~600、放入桶内
         enter_times[random(0, 600)]++;
@@ -41,7 +43,7 @@ void Bank::eventDrived()
         // 处理在窗口等着的客户
         for (auto c : counter) //遍历4个窗口
         {
-            if (c.next == nullptr) //空闲
+            if (c.queue_rear == nullptr) //空闲
                 break;
 
             else if (c.next->handling_time == 0) //办理完毕
@@ -58,11 +60,12 @@ void Bank::eventDrived()
             else //还在办理
                 c.next->handling_time--;
 
-            for (auto p = c.next; p; p = p->next) //所有客户逗留时间++
+            for (auto p = c.next; p; p = p->next) //该窗口所有客户逗留时间++
                 p->stay_time++;
         }
 
         //处理刚进银行的新客户
+        cout << "There're " << enter_times[time] << " clients comming" << endl;
         for (int i = 0; i < enter_times[time]; i++) //有客户这个时间点进来
         {
             Client come = new CNode;
@@ -87,5 +90,5 @@ void Bank::eventDrived()
 
 void Bank::closeForDay()
 {
-    
+    cout << "Today's average of the stay time:" << (double)total_stay / total_stay << endl;
 }
