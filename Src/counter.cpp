@@ -5,7 +5,7 @@ using namespace std;
 Counter::Counter()
 {
     queue_num = 0;
-    queue_front = queue_rear = nullptr;
+    queue_front = queue_back = nullptr;
 }
 
 Counter::~Counter()
@@ -15,11 +15,11 @@ Counter::~Counter()
 void Counter::push(Client &client)
 {
     if (isEmpty())
-        queue_front = queue_rear = client;
+        queue_front = queue_back = client;
     else
     {
-        queue_rear->next = client;
-        queue_rear = client;
+        queue_back->next = client;
+        queue_back = client;
     }
 }
 
@@ -39,20 +39,29 @@ Client Counter::front()
     return queue_front;
 }
 
-Client Counter::rear()
+Client Counter::back()
 {
-    return queue_rear;
+    return queue_back;
 }
 
 bool Counter::isEmpty()
 {
-    if (queue_rear == nullptr)
+    if (queue_back == nullptr)
         return 1;
 
     return 0;
 }
 
-int Counter::howMany()
+int Counter::size()
 {
     return queue_num;
+}
+
+void Counter::handling()
+{
+    for (auto p = queue_front; p != nullptr; p = p->next)
+    {
+        p->handling_time--;
+        p->stay_time++;
+    }
 }

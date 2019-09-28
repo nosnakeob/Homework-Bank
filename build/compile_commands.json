@@ -1,17 +1,22 @@
 [
 {
-  "directory": "W:/code/VSCode/Project/Homework-Bank/build",
-  "command": "C:\\LLVM\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\bank.cpp.obj -c W:\\code\\VSCode\\Project\\Homework-Bank\\Src\\bank.cpp",
-  "file": "W:/code/VSCode/Project/Homework-Bank/Src/bank.cpp"
+  "directory": "F:/Program/VSCode/C_C++/Project/Homework-Bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\bank.cpp.obj -c F:\\Program\\VSCode\\C_C++\\Project\\Homework-Bank\\Src\\bank.cpp",
+  "file": "F:/Program/VSCode/C_C++/Project/Homework-Bank/Src/bank.cpp"
 },
 {
-  "directory": "W:/code/VSCode/Project/Homework-Bank/build",
-  "command": "C:\\LLVM\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\counter.cpp.obj -c W:\\code\\VSCode\\Project\\Homework-Bank\\Src\\counter.cpp",
-  "file": "W:/code/VSCode/Project/Homework-Bank/Src/counter.cpp"
+  "directory": "F:/Program/VSCode/C_C++/Project/Homework-Bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\counter.cpp.obj -c F:\\Program\\VSCode\\C_C++\\Project\\Homework-Bank\\Src\\counter.cpp",
+  "file": "F:/Program/VSCode/C_C++/Project/Homework-Bank/Src/counter.cpp"
 },
 {
-  "directory": "W:/code/VSCode/Project/Homework-Bank/build",
-  "command": "C:\\LLVM\\bin\\x86_64-w64-mingw32-g++.exe   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c W:\\code\\VSCode\\Project\\Homework-Bank\\Src\\main.cpp",
-  "file": "W:/code/VSCode/Project/Homework-Bank/Src/main.cpp"
+  "directory": "F:/Program/VSCode/C_C++/Project/Homework-Bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\main.cpp.obj -c F:\\Program\\VSCode\\C_C++\\Project\\Homework-Bank\\Src\\main.cpp",
+  "file": "F:/Program/VSCode/C_C++/Project/Homework-Bank/Src/main.cpp"
+},
+{
+  "directory": "F:/Program/VSCode/C_C++/Project/Homework-Bank/build",
+  "command": "C:\\PROGRA~1\\LLVM\\bin\\X86_64~2.EXE   @CMakeFiles/cmake-test.dir/includes_CXX.rsp -g   -std=gnu++17 -o CMakeFiles\\cmake-test.dir\\Src\\screen.cpp.obj -c F:\\Program\\VSCode\\C_C++\\Project\\Homework-Bank\\Src\\screen.cpp",
+  "file": "F:/Program/VSCode/C_C++/Project/Homework-Bank/Src/screen.cpp"
 }
 ]

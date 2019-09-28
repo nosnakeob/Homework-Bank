@@ -47,10 +47,10 @@ RM = C:\CMake\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = W:\code\VSCode\Project\Homework-Bank
+CMAKE_SOURCE_DIR = F:\Program\VSCode\C_C++\Project\Homework-Bank
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = W:\code\VSCode\Project\Homework-Bank\build
+CMAKE_BINARY_DIR = F:\Program\VSCode\C_C++\Project\Homework-Bank\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Program\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles F:\Program\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start W:\code\VSCode\Project\Homework-Bank\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Program\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ Src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/main.cpp.s
 .PHONY : Src/main.cpp.s
 
+Src/screen.obj: Src/screen.cpp.obj
+
+.PHONY : Src/screen.obj
+
+# target to build an object file
+Src/screen.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/screen.cpp.obj
+.PHONY : Src/screen.cpp.obj
+
+Src/screen.i: Src/screen.cpp.i
+
+.PHONY : Src/screen.i
+
+# target to preprocess a source file
+Src/screen.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/screen.cpp.i
+.PHONY : Src/screen.cpp.i
+
+Src/screen.s: Src/screen.cpp.s
+
+.PHONY : Src/screen.s
+
+# target to generate assembly for a file
+Src/screen.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/screen.cpp.s
+.PHONY : Src/screen.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,6 +248,9 @@ help:
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
+	@echo ... Src/screen.obj
+	@echo ... Src/screen.i
+	@echo ... Src/screen.s
 .PHONY : help
 
 
