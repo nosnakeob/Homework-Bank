@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "W:/code/VSCode/Project/Homework-Bank/Src/bank.cpp" "W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
-  "W:/code/VSCode/Project/Homework-Bank/Src/counter.cpp" "W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/counter.cpp.obj"
-  "W:/code/VSCode/Project/Homework-Bank/Src/main.cpp" "W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
+  "W:/code/VSCode/C_C++/Project/Homework-Bank/Src/bank.cpp" "W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
+  "W:/code/VSCode/C_C++/Project/Homework-Bank/Src/counter.cpp" "W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/counter.cpp.obj"
+  "W:/code/VSCode/C_C++/Project/Homework-Bank/Src/main.cpp" "W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

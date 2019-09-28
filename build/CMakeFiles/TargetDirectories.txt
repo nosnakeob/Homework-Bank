@@ -1,3 +1,3 @@
-W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir
-W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/edit_cache.dir
-W:/code/VSCode/Project/Homework-Bank/build/CMakeFiles/rebuild_cache.dir
+W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/cmake-test.dir
+W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/edit_cache.dir
+W:/code/VSCode/C_C++/Project/Homework-Bank/build/CMakeFiles/rebuild_cache.dir
