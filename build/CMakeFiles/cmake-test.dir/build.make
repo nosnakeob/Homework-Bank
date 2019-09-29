@@ -56,24 +56,10 @@ include CMakeFiles/cmake-test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cmake-test.dir/flags.make
 
-CMakeFiles/cmake-test.dir/Src/bank.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
-CMakeFiles/cmake-test.dir/Src/bank.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
-CMakeFiles/cmake-test.dir/Src/bank.cpp.obj: ../Src/bank.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
-	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\bank.cpp.obj -c W:\code\VSCode\C_C++\Project\Homework-Bank\Src\bank.cpp
-
-CMakeFiles/cmake-test.dir/Src/bank.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake-test.dir/Src/bank.cpp.i"
-	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E W:\code\VSCode\C_C++\Project\Homework-Bank\Src\bank.cpp > CMakeFiles\cmake-test.dir\Src\bank.cpp.i
-
-CMakeFiles/cmake-test.dir/Src/bank.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/bank.cpp.s"
-	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\code\VSCode\C_C++\Project\Homework-Bank\Src\bank.cpp -o CMakeFiles\cmake-test.dir\Src\bank.cpp.s
-
 CMakeFiles/cmake-test.dir/Src/counter.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
 CMakeFiles/cmake-test.dir/Src/counter.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
 CMakeFiles/cmake-test.dir/Src/counter.cpp.obj: ../Src/counter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmake-test.dir/Src/counter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cmake-test.dir/Src/counter.cpp.obj"
 	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\counter.cpp.obj -c W:\code\VSCode\C_C++\Project\Homework-Bank\Src\counter.cpp
 
 CMakeFiles/cmake-test.dir/Src/counter.cpp.i: cmake_force
@@ -83,6 +69,20 @@ CMakeFiles/cmake-test.dir/Src/counter.cpp.i: cmake_force
 CMakeFiles/cmake-test.dir/Src/counter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/counter.cpp.s"
 	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\code\VSCode\C_C++\Project\Homework-Bank\Src\counter.cpp -o CMakeFiles\cmake-test.dir\Src\counter.cpp.s
+
+CMakeFiles/cmake-test.dir/Src/interface.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
+CMakeFiles/cmake-test.dir/Src/interface.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
+CMakeFiles/cmake-test.dir/Src/interface.cpp.obj: ../Src/interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cmake-test.dir/Src/interface.cpp.obj"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\interface.cpp.obj -c W:\code\VSCode\C_C++\Project\Homework-Bank\Src\interface.cpp
+
+CMakeFiles/cmake-test.dir/Src/interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake-test.dir/Src/interface.cpp.i"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E W:\code\VSCode\C_C++\Project\Homework-Bank\Src\interface.cpp > CMakeFiles\cmake-test.dir\Src\interface.cpp.i
+
+CMakeFiles/cmake-test.dir/Src/interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/interface.cpp.s"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\code\VSCode\C_C++\Project\Homework-Bank\Src\interface.cpp -o CMakeFiles\cmake-test.dir\Src\interface.cpp.s
 
 CMakeFiles/cmake-test.dir/Src/main.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
 CMakeFiles/cmake-test.dir/Src/main.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
@@ -98,23 +98,39 @@ CMakeFiles/cmake-test.dir/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/main.cpp.s"
 	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\code\VSCode\C_C++\Project\Homework-Bank\Src\main.cpp -o CMakeFiles\cmake-test.dir\Src\main.cpp.s
 
+CMakeFiles/cmake-test.dir/Src/operation.cpp.obj: CMakeFiles/cmake-test.dir/flags.make
+CMakeFiles/cmake-test.dir/Src/operation.cpp.obj: CMakeFiles/cmake-test.dir/includes_CXX.rsp
+CMakeFiles/cmake-test.dir/Src/operation.cpp.obj: ../Src/operation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cmake-test.dir/Src/operation.cpp.obj"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cmake-test.dir\Src\operation.cpp.obj -c W:\code\VSCode\C_C++\Project\Homework-Bank\Src\operation.cpp
+
+CMakeFiles/cmake-test.dir/Src/operation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cmake-test.dir/Src/operation.cpp.i"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E W:\code\VSCode\C_C++\Project\Homework-Bank\Src\operation.cpp > CMakeFiles\cmake-test.dir\Src\operation.cpp.i
+
+CMakeFiles/cmake-test.dir/Src/operation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cmake-test.dir/Src/operation.cpp.s"
+	C:\LLVM\bin\x86_64-w64-mingw32-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S W:\code\VSCode\C_C++\Project\Homework-Bank\Src\operation.cpp -o CMakeFiles\cmake-test.dir\Src\operation.cpp.s
+
 # Object files for target cmake-test
 cmake__test_OBJECTS = \
-"CMakeFiles/cmake-test.dir/Src/bank.cpp.obj" \
 "CMakeFiles/cmake-test.dir/Src/counter.cpp.obj" \
-"CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
+"CMakeFiles/cmake-test.dir/Src/interface.cpp.obj" \
+"CMakeFiles/cmake-test.dir/Src/main.cpp.obj" \
+"CMakeFiles/cmake-test.dir/Src/operation.cpp.obj"
 
 # External object files for target cmake-test
 cmake__test_EXTERNAL_OBJECTS =
 
-bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/bank.cpp.obj
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/counter.cpp.obj
+bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/interface.cpp.obj
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/main.cpp.obj
+bin/cmake-test.exe: CMakeFiles/cmake-test.dir/Src/operation.cpp.obj
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/build.make
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/linklibs.rsp
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/objects1.rsp
 bin/cmake-test.exe: CMakeFiles/cmake-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin\cmake-test.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=W:\code\VSCode\C_C++\Project\Homework-Bank\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin\cmake-test.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cmake-test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

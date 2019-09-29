@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cmake-test.dir/Src/bank.cpp.obj"
   "CMakeFiles/cmake-test.dir/Src/counter.cpp.obj"
+  "CMakeFiles/cmake-test.dir/Src/interface.cpp.obj"
   "CMakeFiles/cmake-test.dir/Src/main.cpp.obj"
+  "CMakeFiles/cmake-test.dir/Src/operation.cpp.obj"
   "bin/cmake-test.exe"
   "bin/cmake-test.exe.manifest"
   "bin/cmake-test.pdb"

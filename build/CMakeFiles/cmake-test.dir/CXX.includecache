@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Inc/bank.hpp
+counter.hpp
+../Inc/counter.hpp
+
+../Inc/counter.hpp
+
+W:/code/VSCode/C_C++/Project/Homework-Bank/Src/operation.cpp
+bank.hpp
+W:/code/VSCode/C_C++/Project/Homework-Bank/Src/bank.hpp
+cstdlib
+-
+ctime
+-
+iostream
+-
+windows.h
+-
+

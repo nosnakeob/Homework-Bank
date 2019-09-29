@@ -122,33 +122,6 @@ cmake-test/fast:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/build
 .PHONY : cmake-test/fast
 
-Src/bank.obj: Src/bank.cpp.obj
-
-.PHONY : Src/bank.obj
-
-# target to build an object file
-Src/bank.cpp.obj:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/bank.cpp.obj
-.PHONY : Src/bank.cpp.obj
-
-Src/bank.i: Src/bank.cpp.i
-
-.PHONY : Src/bank.i
-
-# target to preprocess a source file
-Src/bank.cpp.i:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/bank.cpp.i
-.PHONY : Src/bank.cpp.i
-
-Src/bank.s: Src/bank.cpp.s
-
-.PHONY : Src/bank.s
-
-# target to generate assembly for a file
-Src/bank.cpp.s:
-	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/bank.cpp.s
-.PHONY : Src/bank.cpp.s
-
 Src/counter.obj: Src/counter.cpp.obj
 
 .PHONY : Src/counter.obj
@@ -175,6 +148,33 @@ Src/counter.s: Src/counter.cpp.s
 Src/counter.cpp.s:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/counter.cpp.s
 .PHONY : Src/counter.cpp.s
+
+Src/interface.obj: Src/interface.cpp.obj
+
+.PHONY : Src/interface.obj
+
+# target to build an object file
+Src/interface.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/interface.cpp.obj
+.PHONY : Src/interface.cpp.obj
+
+Src/interface.i: Src/interface.cpp.i
+
+.PHONY : Src/interface.i
+
+# target to preprocess a source file
+Src/interface.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/interface.cpp.i
+.PHONY : Src/interface.cpp.i
+
+Src/interface.s: Src/interface.cpp.s
+
+.PHONY : Src/interface.s
+
+# target to generate assembly for a file
+Src/interface.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/interface.cpp.s
+.PHONY : Src/interface.cpp.s
 
 Src/main.obj: Src/main.cpp.obj
 
@@ -203,6 +203,33 @@ Src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/main.cpp.s
 .PHONY : Src/main.cpp.s
 
+Src/operation.obj: Src/operation.cpp.obj
+
+.PHONY : Src/operation.obj
+
+# target to build an object file
+Src/operation.cpp.obj:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/operation.cpp.obj
+.PHONY : Src/operation.cpp.obj
+
+Src/operation.i: Src/operation.cpp.i
+
+.PHONY : Src/operation.i
+
+# target to preprocess a source file
+Src/operation.cpp.i:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/operation.cpp.i
+.PHONY : Src/operation.cpp.i
+
+Src/operation.s: Src/operation.cpp.s
+
+.PHONY : Src/operation.s
+
+# target to generate assembly for a file
+Src/operation.cpp.s:
+	$(MAKE) -f CMakeFiles\cmake-test.dir\build.make CMakeFiles/cmake-test.dir/Src/operation.cpp.s
+.PHONY : Src/operation.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -212,15 +239,18 @@ help:
 	@echo ... cmake-test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Src/bank.obj
-	@echo ... Src/bank.i
-	@echo ... Src/bank.s
 	@echo ... Src/counter.obj
 	@echo ... Src/counter.i
 	@echo ... Src/counter.s
+	@echo ... Src/interface.obj
+	@echo ... Src/interface.i
+	@echo ... Src/interface.s
 	@echo ... Src/main.obj
 	@echo ... Src/main.i
 	@echo ... Src/main.s
+	@echo ... Src/operation.obj
+	@echo ... Src/operation.i
+	@echo ... Src/operation.s
 .PHONY : help
 
 
